@@ -1,0 +1,12 @@
+Initial Expo scaffold + Firebase config
+
+Files added:
+- package.json
+- app.json
+- App.js
+- src/firebaseConfig.js
+- src/screens/HomeScreen.js
+- README_EXPO.md
+- .gitignore
+
+Branch: expo-migration
