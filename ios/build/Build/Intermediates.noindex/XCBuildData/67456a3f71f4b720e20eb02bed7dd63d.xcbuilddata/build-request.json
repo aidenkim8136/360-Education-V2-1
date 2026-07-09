@@ -1,0 +1,71 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "a8ea95274ed57edd6cda7ac0ac0a4a0c7ceb6b36bcfc2fb90f69ac96de4975d6"
+    }
+  ],
+  "containerPath" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/360EducationV2.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos26.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Products",
+      "derivedDataPath" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build",
+      "indexDataStoreFolderPath" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "MacFamily20,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "26.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "MacFamily20,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "00008122-001264EA3411001C",
+          "TARGET_DEVICE_MODEL" : "Mac15,12",
+          "TARGET_DEVICE_OS_VERSION" : "26.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "macosx"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

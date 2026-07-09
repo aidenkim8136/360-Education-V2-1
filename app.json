@@ -2,7 +2,11 @@
   "expo": {
     "name": "360 Education V2",
     "slug": "360-education-v2",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,12 +18,19 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bundleIdentifier": "Aiden.Education-V2"
     },
     "android": {
       "package": "com.aiden.educationv2"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fcb8e233-dfdc-4a12-bf31-b054ef9b1b93"
+      }
     }
   }
 }

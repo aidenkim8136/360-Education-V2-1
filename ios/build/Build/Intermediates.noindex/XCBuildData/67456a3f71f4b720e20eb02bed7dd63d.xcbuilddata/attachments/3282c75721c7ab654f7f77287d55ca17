@@ -1,0 +1,5 @@
+ extern const unsigned char _60EducationV2VersionString[];
+ extern const double _60EducationV2VersionNumber;
+
+ const unsigned char _60EducationV2VersionString[] __attribute__ ((used)) = "@(#)PROGRAM:360EducationV2  PROJECT:360EducationV2-1" "\n";
+ const double _60EducationV2VersionNumber __attribute__ ((used)) = (double)1.;

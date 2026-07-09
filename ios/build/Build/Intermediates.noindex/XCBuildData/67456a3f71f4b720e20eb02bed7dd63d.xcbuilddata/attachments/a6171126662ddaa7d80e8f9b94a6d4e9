@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/360EducationV2-primary.dia",
+    "emit-module-dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/360EducationV2-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/360EducationV2-primary-emit-module.dia",
+    "pch" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/360EducationV2-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/360EducationV2-primary.swiftdeps"
+  },
+  "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/360EducationV2/noop-file.swift" : {
+    "const-values" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file.swiftconstvalues",
+    "dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file.d",
+    "diagnostics" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file.dia",
+    "index-unit-output-path" : "/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file.o",
+    "llvm-bc" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file.bc",
+    "object" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file.o",
+    "swift-dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file.swiftdeps",
+    "swiftmodule" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/noop-file~partial.swiftmodule"
+  },
+  "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/Pods/Target Support Files/Pods-360EducationV2/ExpoModulesProvider.swift" : {
+    "const-values" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider.swiftconstvalues",
+    "dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider.d",
+    "diagnostics" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider.dia",
+    "index-unit-output-path" : "/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider.o",
+    "llvm-bc" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider.bc",
+    "object" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider.o",
+    "swift-dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider.swiftdeps",
+    "swiftmodule" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/ExpoModulesProvider~partial.swiftmodule"
+  },
+  "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/shu-hao/Desktop/Programs/360-Education-V2-main/ios/build/Build/Intermediates.noindex/360EducationV2.build/Release-iphoneos/360EducationV2.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

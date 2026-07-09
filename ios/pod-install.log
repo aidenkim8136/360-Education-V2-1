@@ -1,0 +1,313 @@
+  $ /Users/shu-hao/.nvm/versions/node/v24.11.1/bin/node -p require.resolve(     "@react-native-community/cli-platform-ios/native_modules.rb",     {paths: [process.argv[1]]},   ) /Users/shu-hao/Desktop/Programs/360-Education-V2-main/node_modules/react-native/scripts
+  /Users/shu-hao/Desktop/Programs/360-Education-V2-main/node_modules/@react-native-community/cli-platform-ios/native_modules.rb
+
+Using Expo modules
+  — expo (49.0.23)
+  — expo-application (5.3.1)
+  [Expo] Enabling modular headers for pod ExpoModulesCore
+  — expo-constants (14.4.2)
+  — expo-file-system (15.4.5)
+  — expo-font (11.4.0)
+  — expo-keep-awake (12.3.0)
+  — expo-modules-core (1.5.13)
+  — expo-splash-screen (0.20.5)
+  $ /Users/shu-hao/.nvm/versions/node/v24.11.1/bin/node -e try {console.log(require('@react-native-community/cli').bin);} catch (e) {console.log(require('react-native/cli').bin);}
+  /Users/shu-hao/Desktop/Programs/360-Education-V2-main/node_modules/@react-native-community/cli/build/bin.js
+Auto-linking React Native modules for target `360EducationV2`: RNScreens and react-native-safe-area-context
+Framework build type is static library
+  $ /bin/mkdir -p ./build/generated/ios
+[Codegen] Generating ./build/generated/ios/React-Codegen.podspec.json
+  Preparing
+
+Updating local specs repositories
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+
+Updating spec repo `trunk`
+  CDN: trunk Relative path: deprecated_podspecs.txt, has ETag? W/"6a4e72f2-ddc9a"
+  CDN: trunk Relative path not modified: deprecated_podspecs.txt
+  CDN: trunk Going to update 4 files
+  CDN: trunk Relative path: CocoaPods-version.yml, has ETag? "6a4e72f3-38"
+  CDN: trunk Relative path: all_pods_versions_0_9_9.txt, has ETag? W/"6a4e72f2-7d5"
+  CDN: trunk Relative path: all_pods_versions_7_6_3.txt, has ETag? W/"6a4e72f2-307"
+  CDN: trunk Relative path: all_pods_versions_a_9_3.txt, has ETag? W/"6a4e72f2-8e2"
+  CDN: trunk Relative path not modified: CocoaPods-version.yml
+  CDN: trunk Relative path not modified: all_pods_versions_0_9_9.txt
+  CDN: trunk Relative path not modified: all_pods_versions_7_6_3.txt
+  CDN: trunk Relative path not modified: all_pods_versions_a_9_3.txt
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-360EducationV2`: (``)
+
+Fetching external sources
+-> Fetching podspec for `DoubleConversion` from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`
+-> Fetching podspec for `EXApplication` from `../node_modules/expo-application/ios`
+-> Fetching podspec for `EXConstants` from `../node_modules/expo-constants/ios`
+-> Fetching podspec for `EXFileSystem` from `../node_modules/expo-file-system/ios`
+-> Fetching podspec for `EXFont` from `../node_modules/expo-font/ios`
+-> Fetching podspec for `EXSplashScreen` from `../node_modules/expo-splash-screen/ios`
+-> Fetching podspec for `Expo` from `../node_modules/expo`
+-> Fetching podspec for `ExpoKeepAwake` from `../node_modules/expo-keep-awake/ios`
+-> Fetching podspec for `ExpoModulesCore` from `../node_modules/expo-modules-core`
+-> Fetching podspec for `FBLazyVector` from `../node_modules/react-native/Libraries/FBLazyVector`
+-> Fetching podspec for `FBReactNativeSpec` from `../node_modules/react-native/React/FBReactNativeSpec`
+[Codegen] Found FBReactNativeSpec
+-> Fetching podspec for `RCT-Folly` from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`
+-> Fetching podspec for `RCTRequired` from `../node_modules/react-native/Libraries/RCTRequired`
+-> Fetching podspec for `RCTTypeSafety` from `../node_modules/react-native/Libraries/TypeSafety`
+-> Fetching podspec for `RNScreens` from `../node_modules/react-native-screens`
+-> Fetching podspec for `React` from `../node_modules/react-native/`
+-> Fetching podspec for `React-Codegen` from `build/generated/ios`
+-> Fetching podspec for `React-Core` from `../node_modules/react-native/`
+-> Fetching podspec for `React-CoreModules` from `../node_modules/react-native/React/CoreModules`
+-> Fetching podspec for `React-NativeModulesApple` from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`
+-> Fetching podspec for `React-RCTActionSheet` from `../node_modules/react-native/Libraries/ActionSheetIOS`
+-> Fetching podspec for `React-RCTAnimation` from `../node_modules/react-native/Libraries/NativeAnimation`
+-> Fetching podspec for `React-RCTAppDelegate` from `../node_modules/react-native/Libraries/AppDelegate`
+-> Fetching podspec for `React-RCTBlob` from `../node_modules/react-native/Libraries/Blob`
+-> Fetching podspec for `React-RCTImage` from `../node_modules/react-native/Libraries/Image`
+-> Fetching podspec for `React-RCTLinking` from `../node_modules/react-native/Libraries/LinkingIOS`
+-> Fetching podspec for `React-RCTNetwork` from `../node_modules/react-native/Libraries/Network`
+-> Fetching podspec for `React-RCTSettings` from `../node_modules/react-native/Libraries/Settings`
+-> Fetching podspec for `React-RCTText` from `../node_modules/react-native/Libraries/Text`
+-> Fetching podspec for `React-RCTVibration` from `../node_modules/react-native/Libraries/Vibration`
+-> Fetching podspec for `React-callinvoker` from `../node_modules/react-native/ReactCommon/callinvoker`
+-> Fetching podspec for `React-cxxreact` from `../node_modules/react-native/ReactCommon/cxxreact`
+-> Fetching podspec for `React-debug` from `../node_modules/react-native/ReactCommon/react/debug`
+-> Fetching podspec for `React-hermes` from `../node_modules/react-native/ReactCommon/hermes`
+-> Fetching podspec for `React-jsi` from `../node_modules/react-native/ReactCommon/jsi`
+-> Fetching podspec for `React-jsiexecutor` from `../node_modules/react-native/ReactCommon/jsiexecutor`
+-> Fetching podspec for `React-jsinspector` from `../node_modules/react-native/ReactCommon/jsinspector`
+-> Fetching podspec for `React-logger` from `../node_modules/react-native/ReactCommon/logger`
+-> Fetching podspec for `React-perflogger` from `../node_modules/react-native/ReactCommon/reactperflogger`
+-> Fetching podspec for `React-rncore` from `../node_modules/react-native/ReactCommon`
+[Codegen] Found rncore
+-> Fetching podspec for `React-runtimeexecutor` from `../node_modules/react-native/ReactCommon/runtimeexecutor`
+-> Fetching podspec for `React-runtimescheduler` from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`
+-> Fetching podspec for `React-utils` from `../node_modules/react-native/ReactCommon/react/utils`
+-> Fetching podspec for `ReactCommon` from `../node_modules/react-native/ReactCommon`
+-> Fetching podspec for `Yoga` from `../node_modules/react-native/ReactCommon/yoga`
+-> Fetching podspec for `boost` from `../node_modules/react-native/third-party-podspecs/boost.podspec`
+-> Fetching podspec for `glog` from `../node_modules/react-native/third-party-podspecs/glog.podspec`
+-> Fetching podspec for `hermes-engine` from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`
+[Hermes] Using the release tarball from Maven Central
+-> Fetching podspec for `react-native-safe-area-context` from `../node_modules/react-native-safe-area-context`
+
+Resolving dependencies of `Podfile`
+  CDN: trunk Relative path: all_pods_versions_0_9_9.txt modified during this run! Returning local
+  CDN: trunk Relative path: Specs/0/9/9/libevent/2.1.12/libevent.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_7_6_3.txt modified during this run! Returning local
+  CDN: trunk Relative path: Specs/7/6/3/fmt/7.1.3/fmt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_a_9_3.txt modified during this run! Returning local
+  CDN: trunk Relative path: Specs/a/9/3/SocketRocket/0.7.1/SocketRocket.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/0/9/9/libevent/2.1.12/libevent.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/a/9/3/SocketRocket/0.6.0/SocketRocket.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/7/6/3/fmt/6.2.1/fmt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/0/9/9/libevent/2.1.12/libevent.podspec.json exists! Returning local because checking is only performed in repo update
+
+Comparing resolved specification to the sandbox manifest
+  A DoubleConversion
+  A EXApplication
+  A EXConstants
+  A EXFileSystem
+  A EXFont
+  A EXSplashScreen
+  A Expo
+  A ExpoKeepAwake
+  A ExpoModulesCore
+  A FBLazyVector
+  A FBReactNativeSpec
+  A RCT-Folly
+  A RCTRequired
+  A RCTTypeSafety
+  A RNScreens
+  A React
+  A React-Codegen
+  A React-Core
+  A React-CoreModules
+  A React-NativeModulesApple
+  A React-RCTActionSheet
+  A React-RCTAnimation
+  A React-RCTAppDelegate
+  A React-RCTBlob
+  A React-RCTImage
+  A React-RCTLinking
+  A React-RCTNetwork
+  A React-RCTSettings
+  A React-RCTText
+  A React-RCTVibration
+  A React-callinvoker
+  A React-cxxreact
+  A React-debug
+  A React-hermes
+  A React-jsi
+  A React-jsiexecutor
+  A React-jsinspector
+  A React-logger
+  A React-perflogger
+  A React-rncore
+  A React-runtimeexecutor
+  A React-runtimescheduler
+  A React-utils
+  A ReactCommon
+  A SocketRocket
+  A Yoga
+  A boost
+  A fmt
+  A glog
+  A hermes-engine
+  A libevent
+  A react-native-safe-area-context
+
+Downloading dependencies
+
+-> Installing DoubleConversion (1.1.6)
+  > Copying DoubleConversion from `/Users/shu-hao/Library/Caches/CocoaPods/Pods/External/DoubleConversion/77f51e588bfe0e5c4fa6e9c580da62c6-5189b` to `Pods/DoubleConversion`
+
+-> Installing EXApplication (5.3.1)
+
+-> Installing EXConstants (14.4.2)
+
+-> Installing EXFileSystem (15.4.5)
+
+-> Installing EXFont (11.4.0)
+
+-> Installing EXSplashScreen (0.20.5)
+
+-> Installing Expo (49.0.23)
+
+-> Installing ExpoKeepAwake (12.3.0)
+
+-> Installing ExpoModulesCore (1.5.13)
+
+-> Installing FBLazyVector (0.72.0)
+
+-> Installing FBReactNativeSpec (0.72.0)
+ > Running prepare command
+   $ /bin/bash -c  set -e mkdir -p ../../../../ios/build/generated/ios/./FBReactNativeSpec && touch -a ../../../../ios/build/generated/ios/./FBReactNativeSpec/FBReactNativeSpec.h ../../../../ios/build/generated/ios/./FBReactNativeSpec/FBReactNativeSpec-generated.mm
+
+-> Installing RCT-Folly (2021.07.22.00)
+  > Copying RCT-Folly from `/Users/shu-hao/Library/Caches/CocoaPods/Pods/External/RCT-Folly/b957572a7e21d425b31cc1761b00a672-8dc08` to `Pods/RCT-Folly`
+
+-> Installing RCTRequired (0.72.0)
+
+-> Installing RCTTypeSafety (0.72.0)
+
+-> Installing RNScreens (3.37.0)
+
+-> Installing React (0.72.0)
+
+-> Installing React-Codegen (0.72.0)
+
+-> Installing React-Core (0.72.0)
+
+-> Installing React-CoreModules (0.72.0)
+
+-> Installing React-NativeModulesApple (0.72.0)
+
+-> Installing React-RCTActionSheet (0.72.0)
+
+-> Installing React-RCTAnimation (0.72.0)
+
+-> Installing React-RCTAppDelegate (0.72.0)
+
+-> Installing React-RCTBlob (0.72.0)
+
+-> Installing React-RCTImage (0.72.0)
+
+-> Installing React-RCTLinking (0.72.0)
+
+-> Installing React-RCTNetwork (0.72.0)
+
+-> Installing React-RCTSettings (0.72.0)
+
+-> Installing React-RCTText (0.72.0)
+
+-> Installing React-RCTVibration (0.72.0)
+
+-> Installing React-callinvoker (0.72.0)
+
+-> Installing React-cxxreact (0.72.0)
+
+-> Installing React-debug (0.72.0)
+
+-> Installing React-hermes (0.72.0)
+
+-> Installing React-jsi (0.72.0)
+
+-> Installing React-jsiexecutor (0.72.0)
+
+-> Installing React-jsinspector (0.72.0)
+
+-> Installing React-logger (0.72.0)
+
+-> Installing React-perflogger (0.72.0)
+
+-> Installing React-rncore (0.72.0)
+ > Running prepare command
+   $ /bin/bash -c  set -e mkdir -p ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore && touch -a ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/ComponentDescriptors.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/EventEmitters.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/EventEmitters.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/Props.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/Props.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/States.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/States.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/RCTComponentViewHelpers.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/ShadowNodes.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/ShadowNodes.h
+
+-> Installing React-runtimeexecutor (0.72.0)
+
+-> Installing React-runtimescheduler (0.72.0)
+
+-> Installing React-utils (0.72.0)
+
+-> Installing ReactCommon (0.72.0)
+
+-> Installing SocketRocket (0.6.0)
+  > Copying SocketRocket from `/Users/shu-hao/Library/Caches/CocoaPods/Pods/Release/SocketRocket/0.6.0-fccef` to `Pods/SocketRocket`
+
+-> Installing Yoga (1.14.0)
+
+-> Installing boost (1.76.0)
+ > Http download
+   $ /usr/bin/curl -f -L -o /var/folders/n8/g4w24ky53x98tvy_fq8lxqhc0000gn/T/d20260708-51549-jsus7l/file.tbz https://boostorg.jfrog.io/artifactory/main/release/1.76.0/source/boost_1_76_0.tar.bz2 --create-dirs --netrc-optional --retry 2 -A 'CocoaPods/1.17.0 cocoapods-downloader/2.1'
+     % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                    Dload  Upload   Total   Spent    Left  Speed
+        0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0   100   138  100   138    0     0    263      0 --:--:-- --:--:-- --:--:--   263
+        0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0   100 11447  100 11447    0     0  10137      0  0:00:01  0:00:01 --:--:-- 41777
+
+[!] Error installing boost
+Verification checksum was incorrect, expected f0397ba6e982c4450f27bf32a2a83292aba035b827a5623a14636ea583318c41, got d879f21a81d8ab3b24a28820a27a2ef937263ecc2d17d02f496a25ac174a165b
+
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:146:in 'Pod::Downloader::RemoteFile#compare_hash'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:162:in 'Pod::Downloader::RemoteFile#verify_sha256_hash'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:169:in 'Pod::Downloader::RemoteFile#verify_checksum'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:26:in 'Pod::Downloader::RemoteFile#download!'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/base.rb:83:in 'block in Pod::Downloader::Base#download'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader.rb:159:in 'block in ui_action'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/user_interface.rb:64:in 'Pod::UserInterface.section'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader.rb:158:in 'ui_action'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/base.rb:81:in 'Pod::Downloader::Base#download'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader.rb:110:in 'Pod::Downloader.download_source'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader.rb:77:in 'Pod::Downloader.download_request'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader/cache.rb:256:in 'Pod::Downloader::Cache#download'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader/cache.rb:239:in 'block in Pod::Downloader::Cache#uncached_pod'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader/cache.rb:266:in 'Pod::Downloader::Cache#in_tmpdir'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader/cache.rb:238:in 'Pod::Downloader::Cache#uncached_pod'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader/cache.rb:33:in 'Pod::Downloader::Cache#download_pod'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/downloader.rb:42:in 'Pod::Downloader.download'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer/pod_source_downloader.rb:69:in 'Pod::Installer::PodSourceDownloader#download!'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer/pod_source_installer.rb:117:in 'Pod::Installer::PodSourceInstaller#download_source'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer/pod_source_installer.rb:67:in 'Pod::Installer::PodSourceInstaller#install!'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:621:in 'Pod::Installer#install_source_of_pod'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:539:in 'block (2 levels) in Pod::Installer#install_pod_sources'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/user_interface.rb:86:in 'Pod::UserInterface.titled_section'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:538:in 'block in Pod::Installer#install_pod_sources'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:535:in 'Array#each'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:535:in 'Pod::Installer#install_pod_sources'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:258:in 'block in Pod::Installer#download_dependencies'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/user_interface.rb:64:in 'Pod::UserInterface.section'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:257:in 'Pod::Installer#download_dependencies'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/installer.rb:163:in 'Pod::Installer#install!'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/command/install.rb:52:in 'Pod::Command::Install#run'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/claide-1.1.0/lib/claide/command.rb:334:in 'CLAide::Command.run'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/lib/cocoapods/command.rb:52:in 'Pod::Command.run'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/gems/cocoapods-1.17.0/bin/pod:55:in '<top (required)>'
+/opt/homebrew/Cellar/ruby/4.0.5/lib/ruby/4.0.0/rubygems.rb:305:in 'Kernel#load'
+/opt/homebrew/Cellar/ruby/4.0.5/lib/ruby/4.0.0/rubygems.rb:305:in 'Gem.activate_and_load_bin_path'
+/opt/homebrew/Cellar/cocoapods/1.17.0/libexec/bin/pod:25:in '<main>'
+
+[!] `<PBXResourcesBuildPhase UUID=`13B07F8E1A680F5B00A75B9A`>` attempted to initialize an object with an unknown UUID. `E9BC025CFA5F4698847DB823` for attribute: `files`. This can be the result of a merge and the unknown UUID is being discarded.
