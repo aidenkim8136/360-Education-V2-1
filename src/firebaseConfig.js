@@ -22,12 +22,22 @@ export function initializeFirebase() {
       app = initializeApp(firebaseConfig);
       auth = getAuth(app);
       db = getFirestore(app);
-      console.log('Firebase initialized');
     }
   } catch (e) {
     console.warn('Firebase init error', e);
   }
 }
 
-export function getFirebaseAuth() { return auth; }
-export function getFirestoreDb() { return db; }
+export function getFirebaseAuth() {
+  if (!auth) {
+    initializeFirebase();
+  }
+  return auth;
+}
+
+export function getFirestoreDb() {
+  if (!db) {
+    initializeFirebase();
+  }
+  return db;
+}

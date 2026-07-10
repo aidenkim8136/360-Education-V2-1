@@ -1,25 +1,43 @@
 import { useEffect, useState } from 'react';
-import { getFirestoreDb } from '../src/firebaseConfig';
-import { onAuthStateChanged, getAuth } from 'firebase/auth';
+import { getFirestoreDb, getFirebaseAuth } from '../firebaseConfig';
 import { doc, onSnapshot } from 'firebase/firestore';
+import { onAuthStateChanged } from 'firebase/auth';
 
 export function useAuthState() {
   const [user, setUser] = useState(null);
   const [appUser, setAppUser] = useState(null);
+  const [isReady, setIsReady] = useState(false);
+
   useEffect(() => {
-    const auth = getAuth();
-    const unsub = onAuthStateChanged(auth, u => {
+    const auth = getFirebaseAuth();
+    let unsubscribeDoc = null;
+
+    const unsubscribeAuth = onAuthStateChanged(auth, (u) => {
       setUser(u);
-      if (u) {
-        const db = getFirestoreDb();
-        const docRef = doc(db, 'users_v2', u.uid);
-        const unsub2 = onSnapshot(docRef, snap => setAppUser(snap.exists() ? snap.data() : null));
-        return () => unsub2();
-      } else {
-        setAppUser(null);
+      if (unsubscribeDoc) {
+        unsubscribeDoc();
+        unsubscribeDoc = null;
       }
+
+      if (!u) {
+        setAppUser(null);
+        setIsReady(true);
+        return;
+      }
+
+      const db = getFirestoreDb();
+      const docRef = doc(db, 'users_v2', u.uid);
+      unsubscribeDoc = onSnapshot(docRef, (snap) => {
+        setAppUser(snap.exists() ? snap.data() : null);
+        setIsReady(true);
+      });
     });
-    return () => unsub();
+
+    return () => {
+      if (unsubscribeDoc) unsubscribeDoc();
+      unsubscribeAuth();
+    };
   }, []);
-  return { user, appUser };
+
+  return { user, appUser, isReady };
 }
